@@ -9,7 +9,7 @@ Usecase:
 3. Add Tool Agnostic properties (visible: Yes/No, editable: Yes/No) to the keys in threhsold JSON file, the the keys can be defined in parameter file;
 4. 
 
-Scripts: [TAF-threshold.py](TBD) [TAF-threshold.param](TBD)
+Scripts: [TAF-threshold.py](https://github.com/xiaojias/python/blob/master/TAF-automation/TAF-threshold.py) [TAF-threshold.param](https://github.com/xiaojias/python/blob/master/TAF-automation/TAF-threshold.param)
 
 example of usage:
 
@@ -26,7 +26,7 @@ total 4
 
 ```
 
-example codes in [script](TBD):
+example codes in [script](https://github.com/xiaojias/python/blob/master/TAF-automation/TAF-threshold.py):
 ```
                             for subkey2 in item.keys():
                                 if subkey2 in defaultvaluesForupdate.keys():
