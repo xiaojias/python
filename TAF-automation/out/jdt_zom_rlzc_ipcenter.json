@@ -1,0 +1,28 @@
+{
+    "configuration": {
+        "payload": {
+            "actions": [],
+            "formulaElements": [],
+            "matchBy": "KLZPROC.CMDLINE",
+            "operator": "*AND",
+            "period": "000500",
+            "periods": 2,
+            "severity": "CRITICAL"
+        },
+        "type": "json"
+    },
+    "description": {
+        "editable": "true",
+        "value": "Too many zombie processes (Critical)",
+        "visible": "true"
+    },
+    "label": {
+        "editable": "false",
+        "value": "jdt_zom_rlzc_ipcenter",
+        "visible": "true"
+    },
+    "supportedByAll": "False",
+    "supported_tools": [
+        "IPM"
+    ]
+}

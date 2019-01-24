@@ -1,0 +1,26 @@
+# Define the new rule in TA format
+### E.g
+# Update/Add;item;visible:true;editable:true
+###
+
+Update;description;visible:true;editable:true
+Update;label;visible:true;editable:false
+
+Update;severity;visible:true;editable:true
+#Update;actions;visible:true;editable:true
+#Update;matchBy;visible:true;editable:true
+#Update;periods;visible:true;editable:true
+#Update;period;visible:true;editable:true
+Update;threshold;visible:true;editable:true
+
+# Use "operator0" (plus '0') for configuration.payload.operator especially
+#Update;operator0;visible:true;editable:true
+
+# for type: json
+# not needed so far
+
+Update;function;visible:true;editable:true
+Update;operator;visible:true;editable:true
+Update;metricName;visible:true;editable:true
+
+# for others

@@ -1,0 +1,19 @@
+# logical operator, e.g AND an OR
+\*AND;and
+\*OR;or
+#Operator
+\*EQ;=
+\*NE;<>
+\*LT;<
+\*LE;<=
+\*GE;>=
+\*GT;>
+#function, e.g *VALUE
+#string of '*VALUE' should be cleared
+\*VALUE;   
+{;
+};
+
+
+
+

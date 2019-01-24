@@ -1,0 +1,392 @@
+logfile;Log file
+uptime;Server availability
+fss;Filesystem
+prcmis;Process
+netpope;Network
+swapprc;Swap space
+avacpu;Processor
+zom;Process
+logevfl;Log file
+cpuoff;Processor
+ping;Server availability
+netpipe;Network
+entpct;Processor
+ins;Inode
+netpcol;Network
+cpucup;Processor
+cpu;Processor
+cpumon;Self monitoring
+ams;Self monitoring
+memmon;Self monitoring
+logcfer;Self monitoring
+virmem;Memory
+dbstat;DB status
+dbtbsp;Tablespace
+instat;Instance status
+lastbpk;Backup
+lockwts;Lock wait
+seclogs;Secondary log
+sqlstmt;SQL statement
+tbsp;Tablespace
+tbspoff;Tablespace
+bufflow;Cache Buffer
+cachhit;Cache Hit
+cpupct;Processor
+dberrst;DB status
+dbinact;DB status
+dbincst;DB status
+dboffln;DB status
+dbpfspl;DB space
+dbrepl;DB replication
+diskio;DB I/O
+eralloq;Disk
+erconoq;DB connection
+erdlkoq;DB deadlock
+erdskoq;DB I/O
+erlogoq;DB log
+failjbs;DB job
+fgpct;Disk
+jobcanc;DB job
+jobdur;DB job
+jobfail;DB job
+logsize;DB log
+lspctud;DB log
+ndlocks;DB deadlock
+prcblck;DB status
+sppctud;Disk
+svc;Service
+svrerr;DB status
+usrlic;DB connection
+cpuutil;Processor
+dsp;Disk
+evtdisk;Event log
+evtlog;Event log
+memavl;Memory
+memutil;Memory
+mntvol;Disk
+net;Network
+pagfile;Paging
+custerr;Self monitoring
+customs;Custom script
+dskarrp;Disk
+dskarrv;Disk
+erralrt;Log
+fmodage;File modification
+fsmount;Filesystem
+fsstale;Filesystem
+gpfsclu;Filesystem
+gpfsdsk;Filesystem
+gpfsflg;Filesystem
+gpfsfs;Filesystem
+gpfsmnt;Filesystem
+gpfsquo;Filesystem
+loga230;Log file
+logs230;Log file
+mailq;Mail queue
+netport;Network
+ntpq;Network
+ntpqina;Network
+nwherr;Network
+nwport;Network
+procrun;Process
+pwexp;Password
+pwlock;Password
+sanprb;Filesystem
+sanscr;Filesystem
+stalepp;Filesystem
+subprb;Server
+subscr;Self monitoring
+tracefc;File
+tracefl;File
+urlmon;URL
+urlscr;Self monitoring
+nwperr;Network
+dcss;Domain controller service
+dnm;Domain master
+dnszt;Zone transfer
+draprep;AD Replication
+dschr;Name cache
+imd;Domain master
+pdc;PDC
+pdcrbad;PDC
+pdcrmis;PDC
+rdm;Master pool
+smbport;Network
+smd;Master schema
+lastbkp;Backup
+cpuload;Processor
+cpuscrp;Self monitoring
+dskscrp;Self monitoring
+errscrp;Self monitoring
+fmodscp;Self monitoring
+fsadup;Self monitoring
+fscmder;Self monitoring
+fssdup;Self monitoring
+logscrp;Self monitoring
+mcstart;Maintenance mode
+mcstop;Maintenance mode
+nwperr;Network
+prcload;Processor
+procdup;Self monitoring
+procerr;Process
+procmon;Process
+procusr;Process
+sysload;Processor
+usrload;Processor
+loga220;Log file
+dskspce;Disk
+evtalrt;Event log
+evtscrp;Self monitoring
+filecnt;File count
+filemis;File missing
+logalrt;Log file
+logstat;Log file
+netping;Network
+nwping;Network
+prcnum;Process
+prcpb;Process
+procusr;Process
+svcprb;Service
+wfsprb;Self monitoring
+wssprb;Self monitoring
+lpstate;LPAR
+perfobj;Performance object
+loga220;Log file
+logs220;Log file
+rsptime;Response time
+avail;Web transaction
+ageoldm;Message queue
+chlstn;Listener
+chnorun;Channel
+chstart;Channel
+chxmtq;Channel
+dlq;Message queue
+errlog;Log
+noqmgr;Message queue
+qfull;Message queue
+qnoread;Message queue
+dbthred;DB Connection
+dbuse;DB Connection
+dbwait;DB Connection
+ejbresp;EJB Container
+lstpstp;Listener
+reqresp;Request analysis
+sererr;Servlet
+serresp;Servlet
+srvstat;Server
+svcwas;Service
+dastin;Connection
+dsklath;Disk
+netconn;Network
+sanconn;Storage
+svrcpu;Processor
+svrdsfr;Disk
+svrdskr;Disk
+svrdskw;Disk
+svrmem;Memory
+svrrcvr;Network
+svrtsmr;Network
+vmdskfr;Disk
+vmgmem;Memory
+vmhmem;Memory
+vmpwoff;Virtual machine
+vmrcvr;Network
+vmtsmr;Network
+avgrt;Response time
+srvncnt;Server
+prccpu;Processor
+thrpool;Processor
+memrate;Memory
+avgrsp;Response time
+appdown;Application
+cpuhigh;Processor
+inactdb;DB Connection
+noaconn;Connection
+perfsql;SQL performance
+buffhit;Buffer hit
+locksql;DB lock
+asmdisk;Disk
+bgproc;Process
+bkdpsp;Dump Space
+datagst;Standby database
+dbfile;DB free file
+dblog;Log
+dbrestr;DB status
+dfstat;DB status
+dgmount;Disk
+disksp;Disk
+fbspace;Space
+fretbsp;Space
+instact;DB instance
+instrto;DB instance
+invobj;DB Object
+logora;Log
+lstnr;Listener
+tsext;DB Extents
+tsstat;Tablespace
+undosnp;DB Snapshot
+actlog;Activity log
+allf300;Activity log
+apsreqq;ASP queue
+aspdisp;ASP queue
+asperr;ASP queue
+aspqinc;ASP queue
+aspsetm;ASP queue
+aspwait;ASP queue
+bkcache;Backup
+cachehi;DB Cache
+chpgfas;DB Cache
+chpgsts;DB Cache
+clients;Client Session
+collusg;Storage
+connpct;Connection
+cshnums;Client Session
+dbbkp;Backup
+dbdown;DB Status
+dblgecd;DB log
+dblrest;DB log
+dblrsts;DB log
+dblthwa;DB log
+dbsp210;DB Usage
+dbspaus;DB Usage
+dismoun;Dismount
+drives;Drive
+fblf300;Backup
+hanglog;Session
+hangses;Session
+heappct;Memory
+hitrate;Hitrate
+ioerror;Media
+mastost;Dismount
+mbdown;Replication
+mblf300;Backup
+monact;Log
+monbckp;Self monitoring
+moncli;Self monitoring
+mondbs;Self monitoring
+mondriv;Self monitoring
+monhang;Self monitoring
+monioer;Self monitoring
+monmoun;Self monitoring
+monpath;Self monitoring
+monrecl;Self monitoring
+monscra;Self monitoring
+monspac;Self monitoring
+monstat;TSM status
+montape;Self monitoring
+montran;Self monitoring
+mountst;Self monitoring
+mpchttp;Service
+mscsifd;Network
+mscsinu;Resource
+mscsis1;Network
+mscsisu;Network
+mscsnd1;Node
+mscsnop;Node
+mscsns1;Network
+mscsnsd;Network
+mscsnsu;Network
+mscsnwu;Network
+mscspdu;Process
+mscsprd;Process
+mscsrgf;Resource
+mscsrgo;Resource
+mscsrgp;Resource
+mscsrgu;Resource
+mscsrp;Resource
+mscsrsf;Resource
+mscsrso;Resource
+mscsrsu;Resource
+mscsrus;Resource
+mscswmi;WMI
+mtacoqu;Message queue
+mtawoqu;Message queue
+noderun;Node
+nodestat;Node
+paths;Library
+pchttp;Service
+pendcmp;Usage
+pendtsk;Usage
+pravlod;Mail Delivery
+priavdl;Mail Delivery
+primsde;Mail Delivery
+prircqu;Mail queue
+prisequ;Mail queue
+pubrcqu;Mail queue
+pubsequ;Mail queue
+rclo210;Log space
+rclogus;Log space
+readlat;Latency
+reclaim;Reclaim status
+repfa;Replication
+repsus;Replication
+rpcoper;Replication
+rpcreq;Replication
+scra210;Scratch lib
+scratch;Scratch lib
+sitedwn;Website
+sitepg;Website
+smtpcql;Mail queue
+smtpdpq;Mail queue
+smtpmsp;Mail queue
+smtprmq;Mail queue
+smtprmr;Mail queue
+smtprtq;Mail queue
+smtqele;Mail queue
+srverr;Server status
+srvlogn;Server status
+srvreq;Server status
+strp210;Storage
+strplus;Storage
+svrapf;Storage
+svratst;Service
+svrdown;Service
+svrlpf;Disk
+svrmta;Service
+svrrs;Service
+svrsmtp;Service
+svrsta1;Service
+svrstat;Service
+svrstrt;Service
+svrwwws;Service
+tapesta;Tape
+tljs300;TWS Job stream
+tpoiql;Mail queue
+tqagdvq;Mail queue
+tqamdq;Mail queue
+tqarql;Mail queue
+tqrmdq;Mail queue
+tqrsmtp;Mail queue
+tqrtrdq;Mail queue
+tqsmtpq;Mail queue
+tqsql;Mail queue
+tquql;Mail queue
+transac;Transaction
+tslf300;Transaction
+twsalim;CPU
+twsapin;Process
+twsapip;Process
+twsapsn;Process
+twsapsp;Process
+twsarun;CPU
+twsasc1;Availability
+twsastc;CPU
+twsastm;Status
+twsjexl;TWS Job
+twsjexs;TWS Job
+twsjnsc;TWS Job
+twsjnst;TWS Job
+twsjsc1;TWS Job
+twsjsc2;TWS Job
+twsjsc3;TWS Job
+twsjsta;TWS Job
+twsljsl;TWS Job stream
+twsljsp;TWS Job stream
+twsmscp;Message
+twsmsg;Message
+webanon;Connection
+webrece;Connection
+webreq;Connection
+websent;Connection
+wpsprb;Self monitoring
+writelat;Latency

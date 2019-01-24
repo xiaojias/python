@@ -1,0 +1,29 @@
+{
+    "configuration": {
+        "type": "json", 
+        "payload": {
+            "severity": "CRITICAL", 
+            "matchBy": "KLZPROC.CMDLINE", 
+            "period": "000500", 
+            "actions": [], 
+            "periods": 2, 
+            "operator": "*AND", 
+            "formulaElements": [
+                {
+                    "function": "*VALUE", 
+                    "operator": "*EQ", 
+                    "threshold": "Zombie", 
+                    "metricName": "KLZ_Process.State"
+                }, 
+                {
+                    "function": "*VALUE", 
+                    "operator": "*GT", 
+                    "threshold": "15", 
+                    "metricName": "KLZ_Process.Process_Count"
+                }
+            ]
+        }
+    }, 
+    "description": "Too many zombie processes (Critical)", 
+    "label": "jdt_zom_rlzc_ipcenter"
+}

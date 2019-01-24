@@ -1,0 +1,52 @@
+{
+    "_first": "/1.0/thresholdmgmt/threshold_types/itm_private_situation/thresholds?_filter=label%3Djdt_zom_rlzc_ipcenter&configuration.type=json&_offset=0&_limit=100", 
+    "_href": "/1.0/thresholdmgmt/threshold_types/itm_private_situation/thresholds?_offset=&_limit=&_filter=label%3Djdt_zom_rlzc_ipcenter&configuration.type=json", 
+    "_items": [
+        {
+            "_appliesToAffinity": [
+                "%IBM.STATIC134"
+            ], 
+            "_appliesToAgentType": "LZ", 
+            "_currentResourceAssignments": "/1.0/thresholdmgmt/resource_assignments?_filter=threshold._id%3D1610", 
+            "_href": "/1.0/thresholdmgmt/threshold_types/itm_private_situation/thresholds/1610", 
+            "_id": "1610", 
+            "_isDefault": false, 
+            "_modifiedAt": "1488940485574", 
+            "_modifiedBy": "user:www.ibm.com/xiaojias@cn.ibm.com", 
+            "_resourceAssignmentNextActions": "/1.0/thresholdmgmt/resource_assignments", 
+            "_uiThresholdType": "Linux OS", 
+            "configuration": {
+                "payload": {
+                    "actions": [], 
+                    "formulaElements": [
+                        {
+                            "function": "*VALUE", 
+                            "metricName": "KLZ_Process.State", 
+                            "operator": "*EQ", 
+                            "threshold": "Zombie"
+                        }, 
+                        {
+                            "function": "*VALUE", 
+                            "metricName": "KLZ_Process.Process_Count", 
+                            "operator": "*GT", 
+                            "threshold": "15"
+                        }
+                    ], 
+                    "matchBy": "KLZPROC.CMDLINE", 
+                    "operator": "*AND", 
+                    "period": "000500", 
+                    "periods": 2, 
+                    "severity": "CRITICAL"
+                }, 
+                "type": "json"
+            }, 
+            "description": "Too many zombie processes (Critical)", 
+            "label": "jdt_zom_rlzc_ipcenter"
+        }
+    ], 
+    "_last": "/1.0/thresholdmgmt/threshold_types/itm_private_situation/thresholds?_filter=label%3Djdt_zom_rlzc_ipcenter&configuration.type=json&_offset=0&_limit=100", 
+    "_limit": 100, 
+    "_next": null, 
+    "_offset": 0, 
+    "_previous": null
+}
